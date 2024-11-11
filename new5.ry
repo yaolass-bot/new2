@@ -1,0 +1,4 @@
+if (t * v % 109 = 1):
+       print (109)
+else  (t * v % 109 = y):
+       print (y )
