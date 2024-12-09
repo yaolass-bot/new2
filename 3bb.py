@@ -1,11 +1,11 @@
 
 
-x = int(input("Povtorenie:"))
-p = int(input("CHISLO POVTORENIY:"))
-y = int(input("nujnaya summa vklada"))
+x = int(input("Summa vklada:"))
+p = int(input("Procenty po vkladu:"))
+y = int(input("Nujnaya summa vklada"))
 
-t = 0 # KOLICHESTVO LET VKLADA
-n = 0 # TEKUSHAYA SUMMA VVKLADA
+t = 0 # Kolichestvo let vklada
+n = 0 # Tekushaya summa vklada
 while (n < y):
     n = x + n * p/100 * (t)
     t = t + 1
