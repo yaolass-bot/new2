@@ -1,28 +1,22 @@
 from functools import  cmp_to_key
 
-def largest_number(nums):
-   nums = list(map(str, nums))
-
 def compare (x, y):
-    if x + y > y + x:
-        return -1
-    elif x + y < y + x:
-        return 1
-    else:
-        return 0
+    return int(str(y) + str(x)) - int(str(x) + str(y))
+def from_largest_number(arr):
+    str_arr = [str(num) for num in arr]
 
-    nums.sort(key=cmp_to_key(compare))
+    str_arr.sort(key=cmp_to_key(compare))
 
-    largest_num = ''.join(nums)
+    return '' .join(str_arr)
 
-    if largest_num [0] == '0':
-        return '0'
+arr = [56,9,11,2]
+result = from_largest_number(arr)
+print(result)
 
-    return largest_num
 
-numbers = [56, 9, 11, 2]
 
-print(largest_number(numbers))
+
+
 
 
 
