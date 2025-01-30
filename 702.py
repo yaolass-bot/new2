@@ -8,14 +8,14 @@ def merge_sort(array):
 
         i = j = k = 0
     while i < len(left) and j < len(right):
-     if left[i] < right[j]:
+         if left[i] < right[j]:
                 array[k] = left[i]
                 i += 1
-     else:
+         else:
                 array[k] = right[j]
                 j += 1
                 k += 1
-     while i < len(left):
+         while i < len(left):
                 array[k] = left[i]
                 i +=1
                 k +=1
