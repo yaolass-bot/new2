@@ -1,3 +1,4 @@
+
 import random
 
 a = 100
@@ -18,11 +19,6 @@ mlife = a - dmg
 print(mlife,"Hit point left")
 
 
-if hit < 20:
- print ("you hit", "for","dmg")
-dmg = 0
-mlife = b - dmg
-print(mlife,"Hit point left")
 
 
 
