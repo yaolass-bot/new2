@@ -27,7 +27,7 @@ class Warrior:
 
             print(f"{self.name} attacks! now: {self.health, self.armor}")
         else:
-            print(f"{self.name} is too tired to attack. Stamina: {self.health, self.armor}")
+            print(f"{self.name} is too tired to attack. Health: {self.health, self.armor}")
 
 
 
