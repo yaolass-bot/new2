@@ -1,6 +1,6 @@
 
 requiredfunds = 500
-myfunds = input("vvedite vashe kolichestvo sredstv")
+myfunds = input("input your funds")
 if myfunds>=requiredfunds:
     print("oplata proshla")
 else:
