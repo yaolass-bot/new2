@@ -1,5 +1,5 @@
 weather = "to be changed'"
 while weather == "rain":
     print("wait")
-if weather == "raiend of rain and sunny":   
+if weather == "when rain stopped and sun rise":   
     print("goo outside")
