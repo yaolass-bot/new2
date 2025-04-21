@@ -1,4 +1,4 @@
-weather = "not sure'"
+weather = "to be changed'"
 while weather == "rain":
     print("wait")
 if weather == "raiend of rain and sunny":   
