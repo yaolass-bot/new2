@@ -6,10 +6,10 @@ def sum_of_digits(number):
         number //= 10
     return total
 
-number = 122
-print(sum_of_digits(number))
+total = 122
+print(sum_of_digits(total))
 
-if sum_of_digits(number) % 3 == 0:
+if sum_of_digits(total) % 3 == 0:
 
      print ("chislo delitsya na 3")
 else:
