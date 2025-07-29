@@ -5,6 +5,6 @@ for i in range(len(array)):
     if array[i] > max:
             maxi = array[i]
             if maxi > array[0 + i]:
-                maxn = []
+                maxi = []
 array1.append(array[i])
 print(array1)
