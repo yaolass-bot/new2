@@ -1,9 +1,9 @@
-
-
-def is_even(number):
-    return number % 2 == 0
-def is_odd(number):
-    return number % 2 == 1
-
-
-
+def find():
+    array = [ 2,9,11,12,14,7,12,218]
+    max = array[0]
+    for element in array:
+        if element > max:
+            max = element
+    return max
+find()
+print(find())
