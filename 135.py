@@ -6,10 +6,11 @@ def find(array):
         if element > max:
             max = element
     def pop(array):
-       max = 0
+       max[i] = array1[0]
     for element in array1:
-        max =+1
+        max =-1
     return pop(array)
+
 
 
 
