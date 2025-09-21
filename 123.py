@@ -1,9 +1,19 @@
 
-def check_number (num):
-    if num > 10:
-        return "privet"
-    else:
-        return "Number is not 10"
+def find(array):
+    max_val = array[0]
+    for item in array:
+        if item > max_val:
+            max_val = item
+    return max_val
+
+
+original_array = [300, 32, 9, 11, 12, 14, 7, 12]
+result = []
+max_elmenent = find(original_array)
+result.append(max_elmenent)
+print(result)
+
+
 
 
 
